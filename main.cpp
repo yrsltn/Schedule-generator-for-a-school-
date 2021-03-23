@@ -22,7 +22,7 @@ map <string, course> courseByAbbr;
 
 struct room {
 	string number;
-	int capacity;
+	int capacity = 0;
 	room(string number, int cap) {
 		this -> number = number;
 		this -> capacity = cap;
